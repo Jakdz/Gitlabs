@@ -80,6 +80,33 @@ void przyklad2()
 
 }
 
+void przyklad3()
+{
+    double r;
+
+    std::cout << "+--------------------------------------------------+" << std::endl;
+    std::cout << "|    Program obliczajacy pole powierzchni kola     |" << std::endl;
+    std::cout << "|  i obwod okregu dla zadanej wartosci promienia.  |" << std::endl;
+    std::cout << "+--------------------------------------------------+" << std::endl;
+    std::cout << std::endl;
+
+    std::cout << "Podaj wartosc promienia r =  ";
+    std::cin >> r;
+    std::cout << std::endl;
+
+    double pole, obwod;
+
+    
+    
+    std::cout << "+-----------+-----------+" << std::endl;
+    std::cout << "| " << std::setprecision(3) << pole << "" << obwod << std::setprecision(3) << std::endl;
+
+
+}
+
+
+
+
 int main()
 {
     przyklad2();
